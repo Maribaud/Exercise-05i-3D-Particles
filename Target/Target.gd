@@ -19,3 +19,7 @@ func _physics_process(_delta):
 
 func die():
 	queue_free()
+
+
+func _on_Explosions_visibility_changed():
+	pass # Replace with function body.
